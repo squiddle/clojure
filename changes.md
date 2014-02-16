@@ -63,7 +63,7 @@ can be loaded via require:
     require.invoke(Clojure.read("clojure.set"));
    
 IFns can be passed to higher order functions, e.g. the example below
-passes plus to read:
+passes inc to map:
 
     IFn map = Clojure.var("clojure.core", "map");
     IFn inc = Clojure.var("clojure.core", "inc");
